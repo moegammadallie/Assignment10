@@ -72,7 +72,7 @@ public class EmployeeRepositoryImplTest {
     @Test
     public void delete() {
 
-        Employee employee = EmployeeFactory.getEmployee(1, "Moegammad", "Allie");
+        Employee employee = EmployeeFactory.getEmployee(1, "MoegAammad", "Allie");
 
         repository.create(employee);
 
