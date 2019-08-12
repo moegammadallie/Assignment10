@@ -60,7 +60,7 @@ public class GenderServiceImplTest {
         service.create(employee);
         Gender inRepo = service.read(employee.getId());
 
-        employee.setDesc("Not Riaz");
+        employee.setDesc("Thabo");
 
         service.update(employee);
 
