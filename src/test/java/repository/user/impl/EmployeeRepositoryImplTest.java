@@ -31,7 +31,7 @@ public class EmployeeRepositoryImplTest {
     @Test
     public void create() {
 
-        Employee employee = EmployeeFactory.getEmployee(1, "MOegammad", "Allie");
+        Employee employee = EmployeeFactory.getEmployee(1, "Moegammad", "Allie");
 
         repository.create(employee);
 
@@ -56,7 +56,7 @@ public class EmployeeRepositoryImplTest {
     @Test
     public void update() {
 
-        Employee employee = EmployeeFactory.getEmployee(1, "MOegammad", "Allie");
+        Employee employee = EmployeeFactory.getEmployee(1, "Moegammad", "Allie");
 
         repository.create(employee);
         Employee inRepo = repository.read(employee.getEmpNumber());
